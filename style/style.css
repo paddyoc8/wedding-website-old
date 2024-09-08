@@ -1,0 +1,142 @@
+:root {
+    --dark1: #496585;
+    --light1: #eff4fb; 
+    --dark2: #91a9c5; 
+    --light2: #dae7fa; 
+    --accent1: #de9ca8; 
+    --accent2: #a7b788;
+    --accent3: #91a9c5;
+    --accent4: #fed289;
+    --accent5: #fec6ad;
+    --accent6: #f4cde0;
+    --headerFont: Arial, sans-serif
+}
+
+/* Basic styling for the wedding website */
+body {
+    font-family: var(--headerFont);
+    margin: 0;
+    padding: 0;
+    background-color: var(--light1);
+}
+
+header {
+    background-color: var(--accent1);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Hero Header with background image */
+#hero {
+    height: 800px; /* Adjust the height as needed */
+    background-image: url('../content/header.jpg'); /* Replace with your photo file path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0;
+    color: var(--light1)
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+/* Additional styling for the rest of the page */
+body {
+    font-family: var(--headerFont);
+    margin: 0;
+    padding: 0;
+    background-color: var(--light1);
+}
+ 
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#welcome {
+    background-color: var(--light1);
+}
+
+#schedule, #rsvp, #contact, #registry, #travel, #events {
+    background-color: var(--accent5);
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: var(--dark1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Countdown Timer Styles */
+#countdown {
+    background-color: var(--accent2);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#timer {
+    background-color: var(--light1); /* Light background for the countdown box */
+    border: 2px solid var(--dark1); /* Border color matching your theme */
+    border-radius: 10px;       /* Rounded corners */
+    padding: 20px;
+    font-size: 24px;           /* Font size for the timer */
+    display: inline-block;     /* Make it an inline block for better layout control */
+    color: #333;               /* Text color */
+}
+
+#timer div {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
